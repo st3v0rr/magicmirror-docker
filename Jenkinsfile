@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("st3v0rr/magicmirror-docker", "--no-cache")
+        app = docker.build("st3v0rr/magicmirror-docker", "--no-cache .")
     }
 
     stage('Push image') {

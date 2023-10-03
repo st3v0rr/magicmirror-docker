@@ -1,4 +1,4 @@
-FROM node:14-buster
+FROM node:18-buster
 
 RUN set -e; \
     apt update; \

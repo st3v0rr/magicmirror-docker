@@ -1,4 +1,4 @@
-FROM node:22-buster
+FROM node:22-alpine
 
 RUN set -e; \
     apt update; \
